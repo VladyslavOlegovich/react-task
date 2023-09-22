@@ -1,0 +1,12 @@
+.commentItem {
+  display: flex;
+}
+.block {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+}
+p {
+  margin-left: 20px;
+}

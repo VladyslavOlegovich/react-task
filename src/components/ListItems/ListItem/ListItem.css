@@ -1,0 +1,42 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemName {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.commentCount {
+  width: 22px;
+  height: 20px;
+  background-color: #17a2b8;
+  border-radius: 9px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; /* Додатковий відступ відправо для розділення коментарів від кнопки */
+}
+
+.deleteButton {
+  color: #dc3545;
+  background-color: transparent;
+  border-color: #dc3545;
+  border: 1px solid #dc3545;
+  border-radius: 5px;
+  width: 70px;
+  height: 40px;
+  margin-right: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.deleteButton:hover {
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+.selected {
+  border-left: 4px solid #ff1493;
+}
