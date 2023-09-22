@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px; /* Додатковий відступ відправо для розділення коментарів від кнопки */
+  margin-right: 10px; 
 }
 
 .deleteButton {
